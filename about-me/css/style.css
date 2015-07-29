@@ -1,0 +1,96 @@
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+  font-family: "papyrus", fantasy;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 5px 6px #FF0000;
+}
+.masthead{
+  padding: 6em 0;
+  background-image: url(https://download.unsplash.com/photo-1434329875656-1b22871235ff);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em white;
+}
+.masthead-intro{
+  margin-bottom: 0.1em;
+  font-size: 2em;
+}
+.masthead-heading{
+  margin-top: -0.2em;
+  font-size: 4em;
+  text-shadow: 0 5px 6px #FF0000;
+  text-transform: uppercase;
+}
+.content-footer,
+.introduction-section, .location-section, .questions-section{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  color: blue;
+  font-size: 1.25em;
+  font-family: "open sans", sans-serif;
+}
+h1,
+h2{
+  font-family: "papyrus", fantasy;
+  font-weight: bold;
+  text-shadow: 0 2px 2px red;
+}
+h1{
+  text-align: center;
+  font-size: 2em;
+}
+h2{
+  font-size: 1.5em;
+}
+social{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.social>li{
+  display: inline-block;
+  padding: 0 1em;
+}
+.content-footer{
+  background-color: #000066;
+  text-align: center;
+  color: white;
+  font-family: "open sans", sans-serif;
+  padding: 2em 0;
+}
+a:link{
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+a:visited{
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+a:hover{
+  text-decoration: underline;
+  color: red;
+  font-weight: bold;
+}
+a:active{
+  text-decoration: underline;
+  color: red;
+  font-weight: bold;
+}
+@media only screen and (max-width: 500px){
+  .masthead{
+    padding: 3em 0;
+  }
+  .masthead-heading{
+    font-size: 3em;
+  }
+  .content-footer{
+    padding: 3em 0;
+    font-size: 1em;
+  }
+}
