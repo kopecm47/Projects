@@ -54,6 +54,10 @@ span{
 	box-shadow: 0 5px 5px #708090;
 	margin-top: 2em;
 }
+input[type=text]:focus{
+	border: none;
+	outline: none;
+}
 button{
 	height: 2em;
 	width: 2em;
@@ -71,19 +75,48 @@ button{
 	margin: 1em;
 	margin-left: 11.5em;
 }
+button:hover{
+	background-color: #708090;
+	cursor: pointer;
+}
+p{
+	background-color: #708090;
+	text-align: center;
+	margin-left: 1em;
+	height: 2em;
+	padding-top: 1em;
+
+}
 #list{
 	list-style: none;
 	text-shadow: none;
 	text-align: left;
 	margin-left: 6em;
 }
-.sortable-list> li{
-	background-color: #708090;
-	border-radius: 1em;
-	display: table;
-	height: 2em;
-	line-height: 3em;
-	padding: 0 1em;
-	margin: 1em;
-	width: 20em;
+.full-width{
+	width: 25em;
+}
+.strike{
+	text-decoration: line-through !important;
+	color: red;
+}
+.cross-off{
+	cursor: pointer;
+	margin-top: -.25em;
+	float: left;
+	height: 32px;
+	width: 32px;
+	background: url('../images/checkmark_korganizer.png');
+	background-repeat: no-repeat;
+	margin-left: 1em;
+}
+.delete{
+	cursor: pointer;
+	margin-top: -.25em;
+	float: right;
+	height: 32px;
+	width: 32px;
+	background: url('../images/button_cancel.png');
+	background-repeat: no-repeat;
+	margin-right: 1em;
 }
